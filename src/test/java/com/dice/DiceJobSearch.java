@@ -1,5 +1,6 @@
 package com.dice;
 
+import java.time.LocalDateTime;
 import java.util.concurrent.TimeUnit;
 
 import javax.management.RuntimeErrorException;
@@ -60,5 +61,9 @@ public static void main(String[] args) {
 	}
 	
 	driver.close();
+System.out.println("Test completed - "+ LocalDateTime.now());
+
 }
+
+
 }
